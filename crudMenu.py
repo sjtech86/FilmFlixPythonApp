@@ -6,7 +6,7 @@ def menu_file():
         userMenu = filmFile.read()
     return userMenu
 
-# create the songsMenu
+# create the flimMenu
 def films_menu():
     option = 0 #initialise the option with an integer data type
     optionsList = ["1","2","3","4","5"] # list data structure with string data type
@@ -31,13 +31,13 @@ def films_menu():
 mainProgram = True
 
 while mainProgram: # while True
-    #initialise the songs_menu function with mainMenu variable
+    #initialise the flim_menu function with mainMenu variable
     mainMenu = films_menu()
 
     # if the user input is a string value 1
     #if user input is '1' == '1'
     if mainMenu == "1":
-        # then go into readsongs file and call the read_songs() function 
+        # then go into read films file and call the read_flims() function 
         readFilm.read_films()
     
     elif mainMenu == "2":
