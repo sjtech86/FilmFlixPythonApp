@@ -16,7 +16,7 @@ def films_menu():
     #create a while
     while option not in optionsList:
         # call/invoke the menu_file function through the choiceMenu variable
-        print(choiceMenu)#  display the optios from the menu file
+        print(choiceMenu)#  display the options from the menu file
 
         #re-assign the option variable with the input function
         option = input("Enter an option from the film main menu: ") 
